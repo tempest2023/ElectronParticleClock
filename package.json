@@ -5,7 +5,14 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "pack": "electron-packager . 'Hosts' --platform=darwin --arch=x64  --out=./dist --asar --app-version=2.0.1 --ignore=\"(dist|src|docs|.gitignore|LICENSE|README.md|webpack.config*|node_modules)\""
+    "pack": "electron-packager . '粒子时钟' --platform=darwin --arch=x64  --out=./dist --asar --app-version=1.0.0 --icon=favicon.ico --ignore=\"(dist|src|docs|.gitignore|LICENSE|README.md|webpack.config*|node_modules)\"",
+    "dist-win": "electron-packager . 粒子时钟 --win --out=./dist/ --arch=x64 --app-version=1.0.0 --electron-version=5.0.8 --icon=favicon.ico"
+  },
+  "build": {
+    "appId": "com.particle.clock.www",
+    "win": {
+      "icon": "./favicon.ico"
+    }
   },
   "repository": "",
   "keywords": [
