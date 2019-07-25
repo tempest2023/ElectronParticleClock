@@ -52,4 +52,4 @@ And I want to develop it further as Electron application.
 
 ### Demo
 
-![Image text](https://raw.github.com/623059008/repositpry/master/ElectronParticleClock/demo.jpg)
+![](https://i.loli.net/2019/07/26/5d39f3409c03713588.jpg)
