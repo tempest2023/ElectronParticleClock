@@ -1,0 +1,23 @@
+{
+  "name": "particle_clock",
+  "version": "1.0.0",
+  "description": "A minimal Electron Clock",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-packager . 'Hosts' --platform=darwin --arch=x64  --out=./dist --asar --app-version=2.0.1 --ignore=\"(dist|src|docs|.gitignore|LICENSE|README.md|webpack.config*|node_modules)\""
+  },
+  "repository": "",
+  "keywords": [
+    "Electron",
+    "Clock",
+    "Particle",
+    "canvas",
+    "demo"
+  ],
+  "author": "RT",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^5.0.8"
+  }
+}
