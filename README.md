@@ -49,3 +49,7 @@ The part of particle clock is found in an open-source website,
 I think you can find this project on codepen.io.
 
 And I want to develop it further as Electron application.
+
+### Demo
+
+![Image text](https://raw.github.com/623059008/repositpry/master/ElectronParticleClock/demo.jpg)
